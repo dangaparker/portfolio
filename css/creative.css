@@ -326,3 +326,7 @@ header.masthead p {
   width: 60%;
   justify-content: center;
 }
+
+.application-description{
+  padding: 1em 2em;
+}
