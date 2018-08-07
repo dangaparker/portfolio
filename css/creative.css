@@ -330,3 +330,8 @@ header.masthead p {
 .application-description{
   padding: 1em 2em;
 }
+
+.live-github-buttons{
+  text-align: center;
+  padding: 0;
+}
