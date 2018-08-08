@@ -341,3 +341,13 @@ header.masthead p {
   display: none;
   
 }
+.modal-content{
+  height: 71vh;
+}
+.modal-dialogue{
+  margin: 0;
+}
+iframe{
+  width: 100%;
+  height: 46vh;
+}
