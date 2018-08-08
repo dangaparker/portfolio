@@ -1,3 +1,18 @@
+
+
+function InitializeApp(){
+  
+  
+  addClickHandlers();
+}
+
+function addClickHandlers(){
+
+  $('.video-button').on("click", showIframe)
+}
+
+
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -55,7 +70,7 @@
     scale: 0.3,
     distance: '0px'
   }, 300);
-
+ 
   // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
