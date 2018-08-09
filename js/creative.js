@@ -1,20 +1,9 @@
-
-
-function InitializeApp(){
-  
-  
-  addClickHandlers();
-}
-
-function addClickHandlers(){
-
-  $('.video-button').on("click", showIframe)
-}
-
-
-
 (function($) {
   "use strict"; // Start of use strict
+  
+$("#exampleModalCenter .close, #exampleModalCenter .btn").click(function() {
+  $("#exampleModalCenter iframe").attr("src", $("exampleModalCenter iframe"));
+    });
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -71,7 +60,10 @@ function addClickHandlers(){
     distance: '0px'
   }, 300);
  
+  
   // Magnific popup calls
+ 
+
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
     type: 'image',
@@ -85,6 +77,8 @@ function addClickHandlers(){
     image: {
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
-  });
+  
+});
+
 
 })(jQuery); // End of use strict
