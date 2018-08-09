@@ -361,4 +361,14 @@ iframe{
 
 .bottom-icon{
   font-size: 1.4em;
+  margin: 0;
+}
+
+.lower-hr{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.fa-chevron-circle-up{
+  margin-bottom: 1.4em;
 }
