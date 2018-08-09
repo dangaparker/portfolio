@@ -344,10 +344,21 @@ header.masthead p {
 .modal-content{
   height: 71vh;
 }
-.modal-dialogue{
-  margin: 0;
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 600px;
 }
 iframe{
-  width: 100%;
-  height: 46vh;
+  width: 88%;
+  height: 49vh;
+  }
+}
+
+.skills-text{
+  margin-top: 1em;
+}
+
+.bottom-icon{
+  font-size: 1.4em;
 }
