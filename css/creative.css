@@ -309,6 +309,11 @@ header.masthead p {
   border-color: rgba(63, 147, 202, 0.74);
 }
 
+.about-icon{
+  color: rgba(63, 147, 202, 0.74);;
+  border-color: rgba(63, 147, 202, 0.74);
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: rgba(63, 146, 202, 0.623) !important;
