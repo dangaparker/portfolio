@@ -366,6 +366,7 @@ iframe{
 
 .skills-text{
   margin-top: 1em;
+  color: rgb(77, 77, 77)
 }
 
 .bottom-icon{
@@ -384,5 +385,10 @@ iframe{
 
 .app-description{
   font-size: .8em;
+  color: rgb(110, 110, 110)
+}
+
+.app-title{
+  color: rgb(54, 54, 54)
 }
 
