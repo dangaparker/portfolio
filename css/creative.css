@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "filson";
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 
 hr {
