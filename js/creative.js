@@ -1,9 +1,14 @@
 (function($) {
   "use strict"; // Start of use strict
   
-$("#exampleModalCenter .close, #exampleModalCenter .btn").click(function() {
-  $("#exampleModalCenter iframe").attr("src", $("exampleModalCenter iframe"));
-    });
+  $("#exampleModalCenter .close, #exampleModalCenter .btn").click(stopPlayback);
+  $("#exampleModalCenter").on("hidden.bs.modal", stopPlayback);
+
+  function stopPlayback(){
+    var videoSrc = $("#exampleModalCenter iframe").attr("src");
+    $("#exampleModalCenter iframe").attr("src", "");
+    $("#exampleModalCenter iframe").attr("src", videoSrc);
+  }
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
