@@ -229,7 +229,9 @@ header.masthead p {
   position: relative;
   display: block;
   max-width: 650px;
-  margin: 0 auto;
+  margin: 0 .2em;
+  
+  border-style: outset;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -316,7 +318,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: rgba(63, 146, 202, 0.623) !important;
+  background-color: rgba(55, 119, 161, 0.623) !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -374,6 +376,11 @@ iframe{
   margin: 0;
 }
 
+.bottom-icon:hover{
+  color: rgba(56, 115, 155, 0.74)
+
+}
+
 .lower-hr{
   margin-top: 3em;
   margin-bottom: 3em;
@@ -385,10 +392,16 @@ iframe{
 
 .app-description{
   font-size: .8em;
-  color: rgb(110, 110, 110)
+  color: rgb(110, 110, 110);
+  flex-shrink: 0;
 }
 
 .app-title{
   color: rgb(54, 54, 54)
 }
 
+.app-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
