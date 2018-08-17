@@ -405,3 +405,7 @@ iframe{
   justify-content: space-between;
   flex-direction: column;
 }
+
+.footer-section{
+  padding: 2em;
+}
