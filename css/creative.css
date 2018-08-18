@@ -334,6 +334,12 @@ header.masthead p {
   justify-content: center;
 }
 
+@media only screen and (max-width: 576px){
+  .service-box{
+    width: 70%;
+  }
+}
+
 .application-description{
   padding: 1em 2em;
 }
