@@ -65,9 +65,10 @@
     distance: '0px'
   }, 300);
  
-  
-  // Magnific popup calls
- 
+//collapses navmenu on scroll
+window.onscroll = function(){
+  $('.navbar-collapse').collapse('hide');
+}
 
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
