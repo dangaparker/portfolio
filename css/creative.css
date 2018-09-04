@@ -61,8 +61,18 @@ section {
   padding: 8rem 0;
 }
 
+#services, #portfolio, #contact{
+  background-color: #9c94772e;
+}
 .section-heading {
   margin-top: 0;
+}
+
+.footer-section a{
+  color: #cccccc;
+}
+.footer-section h7{
+ color: #cccccc   
 }
 
 ::-moz-selection {
@@ -421,4 +431,6 @@ iframe{
 
 .footer-section{
   padding: 2em;
+  background-color: #23587bbd;
+  color: #9c94772e
 }
